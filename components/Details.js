@@ -32,7 +32,7 @@ function DetailsScreen({ navigation }) {
   const openModal = (imageUri) => {
     setSelectedImage(imageUri);
     setModalVisible(true);
-  };
+  }
 
   const closeModal = () => {
     setSelectedImage(null);
